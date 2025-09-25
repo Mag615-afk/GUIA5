@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.of(context).pop();  // Cierra el dialog
                 }
               },
-              child: const Text("Agregar"),
+              child: Text("Agregar"),
             )
           ],
         );
@@ -204,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // Botón flotante para agregar un nuevo libro
       floatingActionButton: FloatingActionButton(
         onPressed: _mostrarVentanaAgregar,  // Muestra la ventana para agregar un libro
-        child: const Icon(Icons.add),  // Icono del botón flotante (suma)
+        child: Icon(Icons.add),  // Icono del botón flotante (suma)
       ),
     );
   }
