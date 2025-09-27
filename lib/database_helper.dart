@@ -1,3 +1,4 @@
+// Instalar sqflite: flutter pub add sqflite path (terminal)
 // Importa la clase Libro desde el archivo libros.dart
 import 'package:guia5/libros.dart';
 // Importa las librerías necesarias para trabajar con bases de datos SQLite
